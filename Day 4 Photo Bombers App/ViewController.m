@@ -23,6 +23,7 @@
     self.collectionView.delegate = self;
     
     [self.collectionView registerClass:[PhotoCollectionViewCell class] forCellWithReuseIdentifier:@"Cell"];
+    //asdasdasd
     
     // Do any additional setup after loading the view, typically from a nib.
 }
