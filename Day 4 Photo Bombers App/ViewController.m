@@ -69,7 +69,7 @@
 -(void) downloadImages
 {
     NSURLSession *session = [NSURLSession sharedSession];
-    NSString *urlString = [[NSString alloc] initWithFormat:@"https://api.instagram.com/v1/tags/boeing787/media/recent?access_token=%@", self.accessToken];
+    NSString *urlString = [[NSString alloc] initWithFormat:@"https://api.instagram.com/v1/tags/boeing/media/recent?access_token=%@", self.accessToken];
 
     //NSLog(@"%@", urlString);
     
