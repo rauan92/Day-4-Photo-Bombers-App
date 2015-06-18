@@ -117,12 +117,8 @@
     NSDictionary *photo = self.photos[indexPath.row];
     cell.photo = photo;
     
-    
     return cell;
-    
 }
-
-
 
 
 @end
